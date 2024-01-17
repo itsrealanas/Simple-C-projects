@@ -36,7 +36,6 @@ int main() {
     int n;
     char you,computer, result;
 
-    while(n>=0){
         srand(time(NULL));
         n= rand() %10;
 
@@ -72,6 +71,5 @@ int main() {
            printf("You Lost");
         }
         sleep(1);
-    }
     return 0;
 }
